@@ -1,0 +1,87 @@
+.home-container {
+    display: grid;
+    place-items: center;  /* Centra tanto vertical como horizontalmente */
+    height: 100vh;
+  }
+  
+  .home-title {
+    font-size: 40px;
+    color: darkblue;
+  }
+
+  .Pasos{
+    display: grid;
+    place-items: center;
+    font-size: 24px;
+    color: darkblue;
+  }
+
+/* Home.css */
+.texto1 {
+    text-align: justify;
+    padding: 40px;
+    color: darkblue;
+}
+
+.texto1 h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: darkblue;
+}
+
+.texto1 h3 {
+    font-size: 37px;
+    margin-bottom: 20px;
+    color: darkblue;
+}
+
+.texto1 p {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: darkblue;
+}
+
+/* Estilos para los botones */
+.texto1 button {
+    background-color: #007bff;  /* Color de fondo */
+    color: white;               /* Color del texto */
+    border: none;               /* Elimina el borde */
+    padding: 10px 20px;         /* Espaciado interno */
+    text-align: center;         /* Alineación del texto */
+    text-decoration: none;      /* Elimina subrayado */
+    display: inline-block;      /* Para que los botones se alineen en línea */
+    font-size: 15px;            /* Tamaño de la fuente */
+    margin: 10px 5px;           /* Espaciado entre botones */
+    cursor: pointer;           /* Cambia el cursor al pasar sobre el botón */
+    border-radius: 5px;         /* Bordes redondeados */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Transiciones suaves */
+}
+
+/* Estilo cuando el botón es hover (al pasar el mouse sobre él) */
+.texto1 button:hover {
+    background-color: #45a049;  /* Color de fondo más oscuro */
+    transform: scale(1.1);       /* Escala el botón ligeramente */
+}
+
+/* Estilo cuando el botón está seleccionado */
+.texto1 button:active {
+    transform: scale(1.05);      /* Escala ligeramente al hacer clic */
+}
+
+/* Imagen*/
+.home-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.centered-image {
+    display: block;          /* Convierte la imagen en un bloque para centrarla */
+    margin: 0 auto;          /* Centra la imagen horizontalmente */
+    width: 400%;              /* Ajusta el tamaño de la imagen (50% de su tamaño original) */
+    max-width: 720px;        /* Limita el tamaño máximo para pantallas grandes */
+    height: auto;            /* Mantiene la proporción de la imagen */
+}
+
+.carita{
+    font-size: 100px;
+}
